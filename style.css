@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+
+
+}
+
+header {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    
+
+}
+
+.fa-brands-fa-youtube{
+    color: #000000;
+
+
+}
+
+.logo{
+    width: 10px;
+    height: 10PX;
+
+
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.video {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.video img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+
+}
+
+
+
